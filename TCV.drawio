@@ -1,13 +1,25 @@
 <mxfile host="app.diagrams.net" pages="2">
-  <diagram name="Current State - Manual Compliance Review" id="4nvUkmWkHARm8szQsrYA">
-    <mxGraphModel dx="2335" dy="1735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram name="Current State - Manual Compliance Review" id="acwnidz8ThnweBtWDCgF">
+    <mxGraphModel dx="631" dy="1590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="phase-4nvUkmWkHARm8szQsrYA-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;labelBackgroundColor=none;fillColor=#EBEEF5;dashed=1;strokeWidth=3;strokeColor=#0000FF;fontStyle=1;fontSize=14;spacingLeft=6;spacingTop=2;" value="Scheduling" vertex="1">
+          <mxGeometry height="292" width="340" x="330" as="geometry" />
+        </mxCell>
+        <mxCell id="phase-4nvUkmWkHARm8szQsrYA-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;labelBackgroundColor=none;fillColor=#EBEEF5;dashed=1;strokeWidth=3;strokeColor=#0000FF;fontStyle=1;fontSize=14;spacingLeft=6;spacingTop=2;" value="Data Gathering &amp;amp; Manual Review" vertex="1">
+          <mxGeometry height="722" width="1000" x="10" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="phase-4nvUkmWkHARm8szQsrYA-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;labelBackgroundColor=none;fillColor=#EBEEF5;dashed=1;strokeWidth=3;strokeColor=#0000FF;fontStyle=1;fontSize=14;spacingLeft=6;spacingTop=2;" value="Exception Handling" vertex="1">
+          <mxGeometry height="502" width="300" x="710" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="phase-4nvUkmWkHARm8szQsrYA-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;labelBackgroundColor=none;fillColor=#EBEEF5;dashed=1;strokeWidth=3;strokeColor=#0000FF;fontStyle=1;fontSize=14;spacingLeft=6;spacingTop=2;" value="Closeout &amp;amp; Reporting" vertex="1">
+          <mxGeometry height="232" width="340" x="330" y="1400" as="geometry" />
+        </mxCell>
         <mxCell id="DvRxWnoeDvIVCoj3ww_T-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;" value="Monthly cycle begins" vertex="1">
           <mxGeometry height="50" width="240" x="380" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="DvRxWnoeDvIVCoj3ww_T-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#ffffff;strokeColor=#333333;fontSize=12;align=center;verticalAlign=middle;" value="FiTech scheduler auto-generates review tasks (triggered by account anniversary / open date)" vertex="1">
+        <mxCell id="DvRxWnoeDvIVCoj3ww_T-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#ffffff;strokeColor=#333333;fontSize=12;align=center;verticalAlign=middle;" value="Fi-Tek scheduler auto-generates review tasks (triggered by account anniversary / open date)" vertex="1">
           <mxGeometry height="60" width="280" x="360" y="130" as="geometry" />
         </mxCell>
         <mxCell id="DvRxWnoeDvIVCoj3ww_T-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#ffffff;strokeColor=#333333;fontSize=12;align=center;verticalAlign=middle;" value="Reviewer pulls list of accounts due for review this month" vertex="1">
@@ -16,47 +28,47 @@
         <mxCell id="DvRxWnoeDvIVCoj3ww_T-4" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="For each account" vertex="1">
           <mxGeometry height="70" width="200" x="400" y="320" as="geometry" />
         </mxCell>
-        <mxCell id="DvRxWnoeDvIVCoj3ww_T-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#ffffff;strokeColor=#333333;fontSize=12;align=center;verticalAlign=middle;" value="Log into FiTech, open the review record" vertex="1">
+        <mxCell id="DvRxWnoeDvIVCoj3ww_T-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#ffffff;strokeColor=#333333;fontSize=12;align=center;verticalAlign=middle;" value="Log into Fi-Tek, open the review record" vertex="1">
           <mxGeometry height="50" width="280" x="360" y="420" as="geometry" />
         </mxCell>
         <mxCell id="DvRxWnoeDvIVCoj3ww_T-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#ffffff;strokeColor=#333333;fontSize=12;align=center;verticalAlign=middle;" value="Open source data across multiple screens (alt-tab between platforms)" vertex="1">
           <mxGeometry height="60" width="320" x="340" y="510" as="geometry" />
         </mxCell>
-        <mxCell id="DvRxWnoeDvIVCoj3ww_T-7" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;align=center;" value="FiTech synoptic record owner, investment objective, distributions, linked parties (spouse, POA, accountant)" vertex="1">
+        <mxCell id="DvRxWnoeDvIVCoj3ww_T-7" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;align=center;" value="Fi-Tek synoptic record owner, &lt;br&gt;investment objective, distributions, &lt;br&gt;linked parties (spouse, POA, accountant)" vertex="1">
           <mxGeometry height="90" width="260" x="40" y="620" as="geometry" />
         </mxCell>
-        <mxCell id="DvRxWnoeDvIVCoj3ww_T-8" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;align=center;" value="QuickBase (CRM) activity notes, ID verification, LexisNexis score (BSA)" vertex="1">
+        <mxCell id="DvRxWnoeDvIVCoj3ww_T-8" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;align=center;" value="QuickBase (CRM) activity notes, ID &lt;br&gt;verification, LexisNexis score (BSA)" vertex="1">
           <mxGeometry height="90" width="260" x="370" y="620" as="geometry" />
         </mxCell>
-        <mxCell id="DvRxWnoeDvIVCoj3ww_T-9" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;align=center;" value="PDF documents TCV account agreement, investment objective statement, IRA agreements (up to 3), corporate resolution, trust doc" vertex="1">
+        <mxCell id="DvRxWnoeDvIVCoj3ww_T-9" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;align=center;" value="PDF documents TCV account agreement, &lt;br&gt;investment objective statement, &lt;br&gt;IRA agreements (up to 3), corporate resolution, &lt;br&gt;trust doc" vertex="1">
           <mxGeometry height="90" width="280" x="700" y="620" as="geometry" />
         </mxCell>
-        <mxCell id="DvRxWnoeDvIVCoj3ww_T-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;align=left;verticalAlign=top;spacingLeft=8;spacingTop=6;" value="Review checklist (per Angela&#39;s walkthrough)  1. Statement recipients authorized per TCV agreement 2. Third-party distributions authorized via QuickBase note 3. Investment authority matches TCV document 4. Investment objective matches objective statement 5. Any unusual activity?  (subjective / judgment call) 6. Corporate resolution + proof signers on file (corp/nonprofit) 7. Trust document on file (trust accounts) 8. Account set to generate statement at least annually 9. TCV document on file and signed 10. Fee being charged to the account  Note: list is partial - full set pending from compliance" vertex="1">
+        <mxCell id="DvRxWnoeDvIVCoj3ww_T-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;align=left;verticalAlign=top;spacingLeft=8;spacingTop=6;" value="" vertex="1">
           <mxGeometry height="250" width="480" x="260" y="760" as="geometry" />
         </mxCell>
         <mxCell id="DvRxWnoeDvIVCoj3ww_T-11" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="Discrepancy found?" vertex="1">
-          <mxGeometry height="90" width="200" x="390" y="1050" as="geometry" />
+          <mxGeometry height="90" width="200" x="400" y="1050" as="geometry" />
         </mxCell>
-        <mxCell id="DvRxWnoeDvIVCoj3ww_T-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;" value="Create flag in FiTech" vertex="1">
-          <mxGeometry height="50" width="240" x="740" y="1060" as="geometry" />
+        <mxCell id="DvRxWnoeDvIVCoj3ww_T-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;" value="Create flag in Fi-Tek" vertex="1">
+          <mxGeometry height="50" width="240" x="740" y="1070" as="geometry" />
         </mxCell>
-        <mxCell id="DvRxWnoeDvIVCoj3ww_T-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#ffffff;strokeColor=#333333;fontSize=12;align=center;verticalAlign=middle;" value="FiTech emails assigned account administrator" vertex="1">
+        <mxCell id="DvRxWnoeDvIVCoj3ww_T-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#ffffff;strokeColor=#333333;fontSize=12;align=center;verticalAlign=middle;" value="Fi-Tek emails assigned account administrator" vertex="1">
           <mxGeometry height="50" width="240" x="740" y="1150" as="geometry" />
         </mxCell>
         <mxCell id="DvRxWnoeDvIVCoj3ww_T-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#ffffff;strokeColor=#333333;fontSize=12;align=center;verticalAlign=middle;" value="Administrator remediates (re-sign form, correct address, update CRM record)" vertex="1">
           <mxGeometry height="70" width="240" x="740" y="1240" as="geometry" />
         </mxCell>
         <mxCell id="DvRxWnoeDvIVCoj3ww_T-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#ffffff;strokeColor=#333333;fontSize=12;align=center;verticalAlign=middle;" value="Reviewer verifies resolution" vertex="1">
-          <mxGeometry height="50" width="240" x="740" y="1350" as="geometry" />
+          <mxGeometry height="50" width="240" x="740" y="1343" as="geometry" />
         </mxCell>
         <mxCell id="DvRxWnoeDvIVCoj3ww_T-16" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="All flags resolved?" vertex="1">
-          <mxGeometry height="80" width="160" x="780" y="1440" as="geometry" />
+          <mxGeometry height="80" width="160" x="780" y="1425" as="geometry" />
         </mxCell>
-        <mxCell id="DvRxWnoeDvIVCoj3ww_T-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" value="Close review in FiTech" vertex="1">
-          <mxGeometry height="50" width="240" x="360" y="1440" as="geometry" />
+        <mxCell id="DvRxWnoeDvIVCoj3ww_T-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" value="Close review in Fi-Tek" vertex="1">
+          <mxGeometry height="50" width="240" x="380" y="1440" as="geometry" />
         </mxCell>
         <mxCell id="DvRxWnoeDvIVCoj3ww_T-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#ffffff;strokeColor=#333333;fontSize=12;align=center;verticalAlign=middle;" value="Monthly summary report to compliance lead generated / flagged / closed / outstanding" vertex="1">
-          <mxGeometry height="60" width="300" x="340" y="1560" as="geometry" />
+          <mxGeometry height="60" width="300" x="350" y="1560" as="geometry" />
         </mxCell>
         <mxCell id="DvRxWnoeDvIVCoj3ww_T-19" edge="1" parent="1" source="DvRxWnoeDvIVCoj3ww_T-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#333333;" target="DvRxWnoeDvIVCoj3ww_T-2" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -113,24 +125,47 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DvRxWnoeDvIVCoj3ww_T-37" edge="1" parent="1" source="DvRxWnoeDvIVCoj3ww_T-16" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#333333;" target="DvRxWnoeDvIVCoj3ww_T-14" value="No - reopen">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" x="-0.7595" y="-5" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1000" y="1465.03" />
+              <mxPoint x="1000" y="1275.03" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="DvRxWnoeDvIVCoj3ww_T-38" edge="1" parent="1" source="DvRxWnoeDvIVCoj3ww_T-16" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#333333;" target="DvRxWnoeDvIVCoj3ww_T-17" value="Yes">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" x="-0.7647" y="5" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="DvRxWnoeDvIVCoj3ww_T-39" edge="1" parent="1" source="DvRxWnoeDvIVCoj3ww_T-17" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#333333;" target="DvRxWnoeDvIVCoj3ww_T-18" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="iiEoUHzd9JOW97l-UpnB-1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Review Checklist&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Statement recipients authorized per TCV agreement&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Third-party distributions authorized via QuickBase note&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Investment authority matches TCV document&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Investment objective matches objective statement&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Any unusual activity? (subjective / judgment call)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Corporate resolution + proof signers on file (corp/nonprofit)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Trust document on file (trust accounts)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Account set to generate statement at least annually&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;TCV document on file and signed&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Fee being charged to the account Note: list is partial - full set pending from compliance&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="220" width="440" x="280" y="770" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="mPaOTO2o93hyLhsKRJEE" name="Page-2">
-    <mxGraphModel dx="1334" dy="991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram name="Target State - Automated Compliance Review" id="L2uzeqNd9zlvTKbkGWls">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="1VGDbIlEKlLYDMXEJ5tx-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;labelBackgroundColor=none;fillColor=#D4E1F5;dashed=1;strokeWidth=3;strokeColor=#0000FF;fontStyle=1;fontSize=14;" value="Accounts" vertex="1">
-          <mxGeometry height="400" width="660" x="110" y="120" as="geometry" />
+        <mxCell id="phase-mPaOTO2o93hyLhsKRJEE-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;labelBackgroundColor=none;fillColor=#D4E1F5;dashed=1;strokeWidth=3;strokeColor=#0000FF;fontStyle=1;fontSize=14;spacingLeft=6;spacingTop=2;" value="Accounts" vertex="1">
+          <mxGeometry height="610" width="493" x="270" y="101" as="geometry" />
+        </mxCell>
+        <mxCell id="phase-mPaOTO2o93hyLhsKRJEE-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;labelBackgroundColor=none;fillColor=#D4E1F5;dashed=1;strokeWidth=3;strokeColor=#0000FF;fontStyle=1;fontSize=14;spacingLeft=6;spacingTop=2;" value="Data Gathering" vertex="1">
+          <mxGeometry height="360" width="860" x="10" y="719" as="geometry" />
+        </mxCell>
+        <mxCell id="phase-mPaOTO2o93hyLhsKRJEE-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;labelBackgroundColor=none;fillColor=#D4E1F5;dashed=1;strokeWidth=3;strokeColor=#0000FF;fontStyle=1;fontSize=14;spacingLeft=6;spacingTop=2;" value="Evaluation" vertex="1">
+          <mxGeometry height="361" width="590" x="30" y="1087" as="geometry" />
+        </mxCell>
+        <mxCell id="phase-mPaOTO2o93hyLhsKRJEE-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;labelBackgroundColor=none;fillColor=#D4E1F5;dashed=1;strokeWidth=3;strokeColor=#0000FF;fontStyle=1;fontSize=14;spacingLeft=6;spacingTop=2;" value="Remediation &amp;amp; Write-Back" vertex="1">
+          <mxGeometry height="588" width="550" x="181" y="1488" as="geometry" />
+        </mxCell>
+        <mxCell id="phase-mPaOTO2o93hyLhsKRJEE-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;labelBackgroundColor=none;fillColor=#D4E1F5;dashed=1;strokeWidth=3;strokeColor=#0000FF;fontStyle=1;fontSize=14;spacingLeft=6;spacingTop=2;" value="Closeout &amp;amp; Reporting" vertex="1">
+          <mxGeometry height="196" width="320" x="83" y="2084" as="geometry" />
         </mxCell>
         <mxCell id="_gDT7DT18wUnzynkoIOu-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;" value="Scheduled trigger" vertex="1">
           <mxGeometry height="50" width="240" x="310" y="40" as="geometry" />
@@ -141,7 +176,7 @@
         <mxCell id="_gDT7DT18wUnzynkoIOu-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#ffffff;strokeColor=#333333;fontSize=12;align=center;verticalAlign=middle;" value="Fi-Tek pushes scheduled export to dedicated review inbox" vertex="1">
           <mxGeometry height="60" width="260" x="472.67" y="333" as="geometry" />
         </mxCell>
-        <mxCell id="_gDT7DT18wUnzynkoIOu-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#ffffff;strokeColor=#333333;fontSize=12;align=center;verticalAlign=middle;" value="Bot watches inbox; waits for complete data set before starting (CRM and FiTech arrive staggered)" vertex="1">
+        <mxCell id="_gDT7DT18wUnzynkoIOu-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#ffffff;strokeColor=#333333;fontSize=12;align=center;verticalAlign=middle;" value="Bot watches inbox; waits for complete data set before starting (CRM and Fi-Tek arrive staggered)" vertex="1">
           <mxGeometry height="70" width="260" x="473.17" y="444" as="geometry" />
         </mxCell>
         <mxCell id="_gDT7DT18wUnzynkoIOu-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#ffffff;strokeColor=#333333;fontSize=12;align=center;verticalAlign=middle;" value="Bot retrieves accounts with next review date this month" vertex="1">
@@ -156,7 +191,7 @@
         <mxCell id="_gDT7DT18wUnzynkoIOu-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#ffffff;strokeColor=#333333;fontSize=12;align=center;verticalAlign=middle;" value="Join records on ACCOUNT NUMBER (static identifier present in both systems)" vertex="1">
           <mxGeometry height="50" width="340" x="260" y="873" as="geometry" />
         </mxCell>
-        <mxCell id="_gDT7DT18wUnzynkoIOu-9" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;align=center;" value="FiTech synoptic data as structured fields, not a rendered PDF" vertex="1">
+        <mxCell id="_gDT7DT18wUnzynkoIOu-9" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;align=center;" value="Fi-Tek synoptic data as structured fields, not a rendered PDF" vertex="1">
           <mxGeometry height="80" width="240" x="40" y="987" as="geometry" />
         </mxCell>
         <mxCell id="_gDT7DT18wUnzynkoIOu-10" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;align=center;" value="QuickBase CRM fields via public API" vertex="1">
@@ -177,13 +212,13 @@
         <mxCell id="_gDT7DT18wUnzynkoIOu-15" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="Discrepancy found?" vertex="1">
           <mxGeometry height="90" width="180" x="140" y="1346" as="geometry" />
         </mxCell>
-        <mxCell id="_gDT7DT18wUnzynkoIOu-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;" value="Write flag record back to FiTech" vertex="1">
+        <mxCell id="_gDT7DT18wUnzynkoIOu-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;" value="Write flag record back to Fi-Tek" vertex="1">
           <mxGeometry height="50" width="260" x="237.17" y="1528" as="geometry" />
         </mxCell>
         <mxCell id="_gDT7DT18wUnzynkoIOu-17" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=3;fontSize=11;fontStyle=1;" value="Write-back supported?" vertex="1">
           <mxGeometry height="90" width="220" x="257.67" y="1629" as="geometry" />
         </mxCell>
-        <mxCell id="_gDT7DT18wUnzynkoIOu-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#ffffff;strokeColor=#333333;fontSize=12;align=center;verticalAlign=middle;" value="FiTech notifies administrator" vertex="1">
+        <mxCell id="_gDT7DT18wUnzynkoIOu-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#ffffff;strokeColor=#333333;fontSize=12;align=center;verticalAlign=middle;" value="Fi-Tek notifies administrator" vertex="1">
           <mxGeometry height="50" width="240" x="211" y="1815" as="geometry" />
         </mxCell>
         <mxCell id="_gDT7DT18wUnzynkoIOu-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#ffffff;strokeColor=#333333;fontSize=12;align=center;verticalAlign=middle;" value="Fallback: bot emails administrator directly" vertex="1">
@@ -195,7 +230,7 @@
         <mxCell id="_gDT7DT18wUnzynkoIOu-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#ffffff;strokeColor=#333333;fontSize=12;align=center;verticalAlign=middle;" value="Human-in-the-loop reviewer confirms" vertex="1">
           <mxGeometry height="50" width="280" x="231" y="2014" as="geometry" />
         </mxCell>
-        <mxCell id="_gDT7DT18wUnzynkoIOu-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" value="Write &#39;review complete&#39; + next annual due date back to FiTech" vertex="1">
+        <mxCell id="_gDT7DT18wUnzynkoIOu-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" value="Write &#39;review complete&#39; + next annual due date back to Fi-Tek" vertex="1">
           <mxGeometry height="60" width="260" x="112.83" y="2097" as="geometry" />
         </mxCell>
         <mxCell id="_gDT7DT18wUnzynkoIOu-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#ffffff;strokeColor=#333333;fontSize=12;align=center;verticalAlign=middle;" value="Monthly summary report generated and distributed" vertex="1">
